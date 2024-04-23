@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.padre{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    padding: 50px;
+    align-items: center;
+    
+
+}
+
+.padre .hijo{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px 10px ;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
