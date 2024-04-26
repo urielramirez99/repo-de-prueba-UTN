@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    }
+
+
+
+/* color-carta inicion */
+
+.colors-cartas{
+
+}
+.color-carta{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 20px;
+
+
+}
+
+.color-carta .colors{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.color-carta .colors .color:nth-child(1){
+    width: 100%;
+    height: 40%;
+    background-color: brown;
+}
+
+.color-carta .colors .color:nth-child(2){
+    width: 100%;
+    height: 30%;
+    background-color: blue;
+}
+
+.color-carta .colors .color:nth-child(3){
+    width: 100%;
+    height: 16%;
+    background-color: rgb(81, 165, 42);
+}
+
+.color-carta .colors .color:nth-child(4){
+    width: 100%;
+    height: 14%;
+    background-color: rgb(212, 55, 107);
+}
+
+
+.color-carta .color-carta-controlador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.color-carta .color-carta-controlador .btn-like{
+    height: 40px;
+    margin: 0px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    gap: 5px;
+
+
+}
+
+.color-carta .color-carta-controlador .time{
+    color: #000000E6 ;
+    font-size: 12px;
+
+}
+
+/* color-carta fin */
