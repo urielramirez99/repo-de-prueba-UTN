@@ -45,6 +45,3 @@ let notaTrimestre3 = 6
 let notasTrimestre = [2,10,6]
 
 console.log("el segundo trimestre te sacaste un: " + notasTrimestre[1])
-
-
-
