@@ -45,3 +45,19 @@ let notaTrimestre3 = 6
 let notasTrimestre = [2,10,6]
 
 console.log("el segundo trimestre te sacaste un: " + notasTrimestre[1])
+
+const nombres = [
+    'pepe',
+    'juan',
+    'maria',
+    'pedro',
+    'valentina',
+    'alex'
+]
+function eliminarNombre(nombre){
+    const posicion = nombres.indexOf(nombre)
+    nombres.splice(posicion, 1)
+}
+eliminarNombre('maria')
+eliminarNombre('juan')
+console.log(nombres)
